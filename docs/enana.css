@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(universe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    font-style: oblique
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    padding: 30px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: black;
+}
